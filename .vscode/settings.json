@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.indentHandlebars": true,
+  "html.format.wrapLineLength": 0,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
