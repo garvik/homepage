@@ -1,6 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { Footer } from "../components/Footer";
+import { Main } from "../components/Main";
 
 export default function Home(): JSX.Element {
     return (
@@ -9,11 +11,8 @@ export default function Home(): JSX.Element {
                 <title>MC</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <main className={styles.main}>
-                <p className={styles.description}>Hi, I&apos;m</p>
-                <h1 className={styles.title}>Mike</h1>
-            </main>
+            <Main></Main>
+            <Footer></Footer>
         </div>
     );
 }
