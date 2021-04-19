@@ -12,10 +12,10 @@ export function Footer(): JSX.Element {
                 target="_blank"
                 rel="noreferrer"
             >
-                <GithubSvg width={30} height={30}></GithubSvg>
+                <LinkedInSvg width={30} height={30} />
             </a>
             <a href="https://github.com/garvik" className={styles.link} target="_blank" rel="noreferrer">
-                <LinkedInSvg width={30} height={30}></LinkedInSvg>
+                <GithubSvg width={30} height={30} />
             </a>
         </footer>
     );
