@@ -1,21 +1,24 @@
 .main {
-    padding: 5rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr min(65ch, calc(100% - 64px)) 1fr;
+    grid-column-gap: 32px;
+
+    & > * {
+        grid-column: 2;
+    }
 }
 
 .title {
     margin: 0;
     line-height: 1.15;
     font-size: 5rem;
-    color: #23d18b;
+    color: var(--color-secondary);
 }
 
 .description {
     line-height: 0.8;
     font-size: 2rem;
-    color: #cccccc;
+    color: var(--color-primary);
+    margin-bottom: 0;
 }

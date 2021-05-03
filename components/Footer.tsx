@@ -1,11 +1,16 @@
+import classnames from "classnames";
 import React from "react";
 import styles from "./Footer.module.scss";
 import { GithubSvg } from "./GithubSvg";
 import { LinkedInSvg } from "./LinkedInSvg";
 
-export function Footer(): JSX.Element {
+type Props = {
+    className?: string;
+};
+
+export function Footer({ className }: Props): JSX.Element {
     return (
-        <footer className={styles.footer}>
+        <footer className={classnames(className, styles.footer)}>
             <a
                 href="https://www.linkedin.com/in/micha%C5%82-cichy-05b65069/"
                 className={styles.link}
