@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "format": "prettier --write **/*.js **/*.ts **/*.tsx **/*.json **/*.css **/*.scss"
+    "format": "prettier . --write"
   },
   "dependencies": {
     "classnames": "2.3.1",
