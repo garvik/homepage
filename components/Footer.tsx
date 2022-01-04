@@ -11,12 +11,7 @@ type Props = {
 export function Footer({ className }: Props): JSX.Element {
     return (
         <footer className={classnames(className, styles.footer)}>
-            <a
-                href="https://www.linkedin.com/in/micha%C5%82-cichy-05b65069/"
-                className={styles.link}
-                target="_blank"
-                rel="noreferrer"
-            >
+            <a href="https://www.linkedin.com/in/-cichy/" className={styles.link} target="_blank" rel="noreferrer">
                 <LinkedInSvg width={30} height={30} />
             </a>
             <a href="https://github.com/garvik" className={styles.link} target="_blank" rel="noreferrer">
