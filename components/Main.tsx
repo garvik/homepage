@@ -25,8 +25,8 @@ export function Main({ className }: Props): JSX.Element {
                 <i>If you can&apos;t hear it from the other side of the room, it&apos;s not clicky enough.</i>
             </p>
             <p>
-                Currently working as an architect on a browser-based ERP used by nearly 100 companies. Tech stack
-                includes ASP.NET Core MVC, React, AngularJS, and various Azure services.
+                Currently working as an architect on a browser-based ERP used by over 100 companies. Tech stack includes
+                ASP.NET Core MVC, React, AngularJS, and various Azure services.
             </p>
         </main>
     );
