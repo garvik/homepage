@@ -12,7 +12,7 @@ type Props = {
     className?: string;
 };
 
-export function Main({ className }: Props): JSX.Element {
+export function Main({ className }: Props) {
     return (
         <main className={classnames(className, styles.main)}>
             <p className={styles.description}>

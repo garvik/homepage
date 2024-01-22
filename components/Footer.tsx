@@ -8,7 +8,7 @@ type Props = {
     className?: string;
 };
 
-export function Footer({ className }: Props): JSX.Element {
+export function Footer({ className }: Props) {
     return (
         <footer className={classnames(className, styles.footer)}>
             <a href="https://www.linkedin.com/in/-cichy/" className={styles.link} target="_blank" rel="noreferrer">

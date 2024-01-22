@@ -4,7 +4,7 @@ import { Footer } from "./Footer";
 import { Main } from "./Main";
 import styles from "./Layout.module.scss";
 
-export function Layout(): JSX.Element {
+export function Layout() {
     return (
         <div className={styles.container} data-theme="dark">
             <Head>
