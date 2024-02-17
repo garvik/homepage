@@ -1,12 +1,12 @@
 {
   "editor.formatOnSave": true,
-  "editor.tabSize": 4,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "quickfix.biome": "always",
+    "source.organizeImports.biome": "always"
   },
-  "html.format.wrapAttributes": "force-aligned",
-  "html.format.indentHandlebars": true,
-  "html.format.wrapLineLength": 0,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }

@@ -1,6 +1,6 @@
 import classnames from "classnames";
 import React from "react";
-import { useSpring, animated } from "react-spring";
+import { animated, useSpring } from "react-spring";
 import styles from "./Main.module.scss";
 
 function Hand() {
@@ -16,7 +16,8 @@ export function Main({ className }: Props) {
     return (
         <main className={classnames(className, styles.main)}>
             <p className={styles.description}>
-                <Hand></Hand>Hi, I&apos;m
+                <Hand />
+                Hi, I&apos;m
             </p>
             <h1 className={styles.title}>Mike</h1>
             <p>

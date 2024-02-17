@@ -12,6 +12,7 @@ export function Footer({ className }: Props) {
     return (
         <footer className={classnames(className, styles.footer)}>
             <a href="https://www.linkedin.com/in/-cichy/" className={styles.link} target="_blank" rel="noreferrer">
+                {" "}
                 <LinkedInSvg width={30} height={30} />
             </a>
             <a href="https://github.com/garvik" className={styles.link} target="_blank" rel="noreferrer">

@@ -1,8 +1,8 @@
 import Head from "next/head";
 import React from "react";
 import { Footer } from "./Footer";
-import { Main } from "./Main";
 import styles from "./Layout.module.scss";
+import { Main } from "./Main";
 
 export function Layout() {
     return (
@@ -11,8 +11,8 @@ export function Layout() {
                 <title>MC</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Main className={styles.main}></Main>
-            <Footer className={styles.footer}></Footer>
+            <Main className={styles.main} />
+            <Footer className={styles.footer} />
         </div>
     );
 }
