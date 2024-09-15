@@ -1,6 +1,6 @@
-import React from "react";
+import React, { type SVGProps } from "react";
 
-export function LinkedInSvg(props: React.SVGProps<SVGSVGElement>) {
+export function LinkedInSvg(props: SVGProps<SVGSVGElement>) {
     return (
         <svg viewBox="0 0 24 24" role="img" aria-label="LinkedIn" xmlns="http://www.w3.org/2000/svg" {...props}>
             <path
